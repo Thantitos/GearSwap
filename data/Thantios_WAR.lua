@@ -17,7 +17,6 @@ function get_sets()
 	--sets.af.legs = "Pummeler's Cuisses +3"
 	--sets.af.feet = "Pummeler's Calligae +3" 
 	
-	HAHAHAHAHa
 
 	
 	--sets.relic = {}
@@ -87,7 +86,7 @@ function get_sets()
         left_ring="Niqmaddu Ring",
         right_ring="Karieyh Ring",
         back={ name="Cichol's Mantle", augments={'VIT+20','Accuracy+20 Attack+20','VIT+10','Weapon skill damage +10%',}},}
-        --PDL and Multi
+    --PDL and Multi
     sets.precast.WSMulti = {
         ammo="Knobkierrie",
         head="Agoge Mask +3",
@@ -103,33 +102,42 @@ function get_sets()
         right_ring="Karieyh Ring",
         back={ name="Cichol's Mantle", augments={'VIT+20','Accuracy+20 Attack+20','VIT+10','Weapon skill damage +10%',}},}
     
-    --double   str80              	2,75    2,75    2,75
-    sets.precast['Ukko&apos;s Fury'] = set_combine(sets.precast.WSStrength, {})
-    --single    str40, int40    	2,75    2,75    2,75
+    --double    str80              	2,00    2,00    2,00        (Crit)
+    sets.precast['Ukko\'s Fury'] = set_combine(sets.precast.WSStrength, {})
+    --fourfold  vit73-85        	1,00    3,50    6,50
     sets.precast['Upheaval'] = set_combine(sets.precast.WSVitality, {})
-    --double    str60, mnd60        2,0     4,0     7,0
+    --single    str60               2,75    2,75    2,75
     sets.precast['Fell Cleave'] = set_combine(sets.precast.WSStrength, {})
-    --fourfold  int73               0,75    1,25    2,0     ftp-replicating
+    --single  str60/vit60           1,50    2,50    4,00
     sets.precast['Steel Cyclone'] = set_combine(sets.precast.WSStrength, {})
-    --fivefold  str73               0,72    1,5     2,25    ftp-replicating
+    --fivefold  str73-85            0,72    1,50    2,25        ftp-replicating
+
     sets.precast['Resolution'] = set_combine(sets.precast.WSMulti, {
         neck="Fotia Gorget",
-        waist="Fotia Belt",
-        })
-    --single    str30, mnd30        1,0     1,0     1,0
-    sets.precast['Shockwave'] = set_combine(sets.precast.WSStrength, {
-        neck="Fotia Gorget",
         waist="Fotia Belt",})
+    --single    str30, mnd30        1,00    1,00    1,00
+    sets.precast['Shockwave'] = set_combine(sets.precast.WSStrength, {})
+    --single    str40/vit40         3,00    3,00    3,00        (Crit)
+    sets.precast['Scourge'] = set_combine(sets.precast.WSStrength, {})
+    --single    vit80               3,50    3,50    3,50
+    sets.precast['Herculean Slash'] = set_combine(sets.precast.WSStrength, {})
+
     --double    str50, mnd50        4,0     10,25   13,75
     sets.precast['Savage Blade'] = set_combine(sets.precast.WSStrength, {
         left_ear={ name="Moonshade Earring", augments={'Attack+4','TP Bonus +250',}},
         })
-    --fivefold  mnd73               1,0     1,0     1,0     ftp-replicating
+    --fivefold  mnd73               1,00    1,00    1,00        ftp-replicating
     sets.precast['Requiescat'] = set_combine(sets.precast.WSMulti, {
         neck="Fotia Gorget",
         waist="Fotia Belt",})
-    --single    str100              1,0     1,0     1,0
+    --single    str100              1,00    1,00    1,00
     sets.precast['Circle Blade'] = set_combine(sets.precast.WSStrength, {})
+    --single    TPMxHP
+    sets.precast['Spirits Within'] = set_combine(sets.precast.WSStrength, {})
+
+    --double    str100              1,00    3,00    5,50
+    sets.precast['Impulse Drive'] = set_combine(sets.precast.WSStrength, {})
+    
 
     --------------------------------------
     -- Midcast sets
