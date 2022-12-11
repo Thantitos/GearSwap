@@ -17,6 +17,8 @@ function get_sets()
 	--sets.af.legs = "Pummeler's Cuisses +3"
 	--sets.af.feet = "Pummeler's Calligae +3" 
 	
+	HAHAHAHAHa
+
 	
 	--sets.relic = {}
     --sets.relic.head = "Agoge Mask +3"            
