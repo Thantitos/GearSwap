@@ -1,0 +1,17 @@
+sets.exported={
+    main="Devivifier",
+    sub="Duplus Grip",
+    ammo="Ravager's Orb",
+    head="Sulevia's Mask +1",
+    body="Sulevia's Plate. +1",
+    hands="Sulev. Gauntlets +1",
+    legs="Flamma Dirs +1",
+    feet="Sulev. Leggings +2",
+    neck="War. Beads +1",
+    waist="Nierenschutz",
+    left_ear={ name="Moonshade Earring", augments={'Attack+4','TP Bonus +250',}},
+    right_ear="Brutal Earring",
+    left_ring="Rajas Ring",
+    right_ring="Sulevia's Ring",
+    back="Shadow Mantle",
+}

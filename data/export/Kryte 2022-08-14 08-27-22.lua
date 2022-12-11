@@ -1,0 +1,17 @@
+sets.exported={
+    main="Raetic Rod +1",
+    sub="Sors Shield",
+    ammo="Incantor Stone",
+    head="Orison Cap +1",
+    body="Orison Bliaut +1",
+    hands="Inyan. Dastanas +1",
+    legs="Inyanga Shalwar +1",
+    feet="Inyan. Crackows +1",
+    neck="Twilight Torque",
+    waist="Hierarch Belt",
+    left_ear="Orison Earring",
+    right_ear="Graiai Earring",
+    left_ring="Roller's Ring",
+    right_ring="Bifrost Ring",
+    back="Oretania's Cape",
+}

@@ -1,0 +1,17 @@
+sets.exported={
+    main="Shellbuster",
+    sub="Blurred Shield +1",
+    ammo={ name="Coiste Bodhar", augments={'Path: A',}},
+    head="Flam. Zucchetto +2",
+    body="Sakpata's Plate",
+    hands="Sakpata's Gauntlets",
+    legs="Pumm. Cuisses +2",
+    feet="Hermes' Sandals",
+    neck={ name="War. Beads +2", augments={'Path: A',}},
+    waist="Ioskeha Belt +1",
+    left_ear="Cessance Earring",
+    right_ear={ name="Schere Earring", augments={'Path: A',}},
+    left_ring="Rajas Ring",
+    right_ring="Warp Ring",
+    back={ name="Cichol's Mantle", augments={'DEX+20','Accuracy+20 Attack+20','DEX+10','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

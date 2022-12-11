@@ -1,0 +1,17 @@
+sets.exported={
+    main="Devivifier",
+    sub="Duplus Grip",
+    ammo="Hasty Pinion +1",
+    head="Flam. Zucchetto +2",
+    body={ name="Valorous Mail", augments={'Accuracy+13','"Dbl.Atk."+3',}},
+    hands="Sulev. Gauntlets +1",
+    legs="Flamma Dirs +1",
+    feet="Flam. Gambieras +1",
+    neck="Asperity Necklace",
+    waist="Ioskeha Belt",
+    left_ear="Bladeborn Earring",
+    right_ear="Steelflash Earring",
+    left_ring="Rajas Ring",
+    right_ring="Flamma Ring",
+    back={ name="Mauler's Mantle", augments={'DEX+2','STR+3','Accuracy+5','Crit. hit damage +1%',}},
+}

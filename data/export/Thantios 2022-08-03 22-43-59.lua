@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Kali", augments={'Mag. Acc.+15','String instrument skill +10','Wind instrument skill +10',}},
+    sub="Pukulatmuj +1",
+    range="Terpander",
+    head="Aoidos' Calot +2",
+    body="Fili Hongreline",
+    hands="Vanya Cuffs",
+    legs="Inyanga Shalwar +2",
+    feet="Brioso Slippers",
+    neck="Asperity Necklace",
+    waist="Wanion Belt",
+    left_ear="Influx Earring",
+    right_ear="Brutal Earring",
+    left_ring="Stikini Ring",
+    right_ring="Rajas Ring",
+    back="Shadow Mantle",
+}

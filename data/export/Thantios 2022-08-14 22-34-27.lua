@@ -1,0 +1,17 @@
+sets.exported={
+    main="Naegling",
+    sub={ name="Egeking", augments={'Accuracy+50','Mag. Acc.+30','"Fast Cast"+8',}},
+    ammo="Aurgelmir Orb",
+    head="Nyame Helm",
+    body="Nyame Mail",
+    hands={ name="Nyame Gauntlets", augments={'Path: B',}},
+    legs="Nyame Flanchard",
+    feet="Nyame Sollerets",
+    neck="Asperity Necklace",
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear="Sherida Earring",
+    right_ear="Eabani Earring",
+    left_ring="Chirich Ring +1",
+    right_ring="Petrov Ring",
+    back={ name="Sucellos's Cape", augments={'INT+20',}},
+}

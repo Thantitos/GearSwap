@@ -1,0 +1,17 @@
+sets.exported={
+    main="Izhiikoh",
+    sub="Sandung",
+    ammo="Per. Lucky Egg",
+    head="Nyame Helm",
+    body="Nyame Mail",
+    hands={ name="Asn. Armlets +2", augments={'Enhances "Perfect Dodge" effect',}},
+    legs={ name="Nyame Flanchard", augments={'Path: B',}},
+    feet="Skulk. Poulaines",
+    neck="Torero Torque",
+    waist="Twilight Belt",
+    left_ear="Brutal Earring",
+    right_ear="Cessance Earring",
+    left_ring="Rajas Ring",
+    right_ring="Dingir Ring",
+    back="Toro Cape",
+}

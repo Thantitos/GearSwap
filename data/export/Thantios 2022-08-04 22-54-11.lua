@@ -1,0 +1,17 @@
+sets.exported={
+    main="Devivifier",
+    sub="Duplus Grip",
+    ammo="Ravager's Orb",
+    head="Flam. Zucchetto +2",
+    body="Sakpata's Plate",
+    hands="Sakpata's Gauntlets",
+    legs="Sakpata's Cuisses",
+    feet="Sulev. Leggings +2",
+    neck={ name="War. Beads +1", augments={'Path: A',}},
+    waist="Ioskeha Belt",
+    left_ear={ name="Moonshade Earring", augments={'Attack+4','TP Bonus +250',}},
+    right_ear="Brutal Earring",
+    left_ring="Rajas Ring",
+    right_ring="Flamma Ring",
+    back={ name="Cichol's Mantle", augments={'Accuracy+20 Attack+20','Weapon skill damage +10%',}},
+}

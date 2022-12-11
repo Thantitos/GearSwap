@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Gada", augments={'"Fast Cast"+6','"Mag.Atk.Bns."+16',}},
+    sub="Sors Shield",
+    ammo="Incantor Stone",
+    head="Wayfarer Circlet",
+    body="Wayfarer Robe",
+    hands="Wayfarer Cuffs",
+    legs="Wayfarer Slops",
+    feet="Wayfarer Clogs",
+    neck="Twilight Torque",
+    waist="Hierarch Belt",
+    left_ear="Orison Earring",
+    right_ear="Eabani Earring",
+    left_ring="Stikini Ring +1",
+    right_ring="Stikini Ring +1",
+    back="Iximulew Cape",
+}

@@ -1,0 +1,17 @@
+sets.exported={
+    main="Izhiikoh",
+    sub="Sandung",
+    ammo="Aurgelmir Orb",
+    head="Nyame Helm",
+    body="Mummu Jacket +1",
+    hands="Mummu Wrists +1",
+    legs="Mummu Kecks +1",
+    feet="Herculean Boots",
+    neck="Asperity Necklace",
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear="Sherida Earring",
+    right_ear="Cessance Earring",
+    left_ring="Chirich Ring +1",
+    right_ring="Rajas Ring",
+    back="Canny Cape",
+}

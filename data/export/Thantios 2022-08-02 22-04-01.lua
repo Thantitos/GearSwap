@@ -1,0 +1,16 @@
+sets.exported={
+    main="Arasy Sainti",
+    ammo="Hasty Pinion +1",
+    head="Boii Mask +1",
+    body="Boii Lorica +1",
+    hands="Acro Gauntlets",
+    legs={ name="Acro Breeches", augments={'Accuracy+18','Pet: "Regen"+2',}},
+    feet="Despair Greaves",
+    neck="Asperity Necklace",
+    waist="Phasmida Belt",
+    left_ear="Bladeborn Earring",
+    right_ear="Steelflash Earring",
+    left_ring="Rajas Ring",
+    right_ring="Ulthalam's Ring",
+    back={ name="Mauler's Mantle", augments={'DEX+2','STR+3','Accuracy+5','Crit. hit damage +1%',}},
+}

@@ -1,0 +1,17 @@
+sets.exported={
+    main="Raetic Rod +1",
+    sub="Sors Shield",
+    ammo="Incantor Stone",
+    head="Wayfarer Circlet",
+    body="Wayfarer Robe",
+    hands="Wayfarer Cuffs",
+    legs="Wayfarer Slops",
+    feet="Wayfarer Clogs",
+    neck="Twilight Torque",
+    waist="Hierarch Belt",
+    left_ear="Orison Earring",
+    right_ear="Brachyura Earring",
+    left_ring="Roller's Ring",
+    right_ring="Warp Ring",
+    back={ name="Alaunus's Cape", augments={'MND+20','Mag. Acc+20 /Mag. Dmg.+20','"Fast Cast"+10','Spell interruption rate down-10%',}},
+}

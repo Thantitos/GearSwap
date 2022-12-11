@@ -1,0 +1,17 @@
+sets.exported={
+    main="Numen Staff",
+    sub="Irenic Strap",
+    ammo="Incantor Stone",
+    head="Wayfarer Circlet",
+    body="Wayfarer Robe",
+    hands="Wayfarer Cuffs",
+    legs="Wayfarer Slops",
+    feet="Wayfarer Clogs",
+    neck="Twilight Torque",
+    waist="Hierarch Belt",
+    left_ear="Orison Earring",
+    right_ear="Brachyura Earring",
+    left_ring="Roller's Ring",
+    right_ring="Bifrost Ring",
+    back="Iximulew Cape",
+}

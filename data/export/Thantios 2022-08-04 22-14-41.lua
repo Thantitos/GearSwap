@@ -1,0 +1,17 @@
+sets.exported={
+    main="Devivifier",
+    sub="Duplus Grip",
+    ammo="Hasty Pinion +1",
+    head="Sakpata's Helm",
+    body="Sakpata's Plate",
+    hands="Sakpata's Gauntlets",
+    legs="Sakpata's Cuisses",
+    feet="Sakpata's Leggings",
+    neck="Twilight Torque",
+    waist="Nierenschutz",
+    left_ear="Steelflash Earring",
+    right_ear="Bladeborn Earring",
+    left_ring="Sulevia's Ring",
+    right_ring="Shadow Ring",
+    back={ name="Mecisto. Mantle", augments={'Cap. Point+41%','STR+2','Accuracy+1','DEF+3',}},
+}

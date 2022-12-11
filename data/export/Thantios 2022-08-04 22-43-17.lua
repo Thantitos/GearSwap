@@ -1,0 +1,17 @@
+sets.exported={
+    main="Devivifier",
+    sub="Duplus Grip",
+    ammo="Ravager's Orb",
+    head="Sakpata's Helm",
+    body="Sakpata's Plate",
+    hands="Sakpata's Gauntlets",
+    legs="Sakpata's Cuisses",
+    feet="Sakpata's Leggings",
+    neck="Asperity Necklace",
+    waist="Ioskeha Belt",
+    left_ear="Steelflash Earring",
+    right_ear="Bladeborn Earring",
+    left_ring="Rajas Ring",
+    right_ring="Flamma Ring",
+    back={ name="Cichol's Mantle", augments={'Accuracy+20 Attack+20','Weapon skill damage +10%',}},
+}
