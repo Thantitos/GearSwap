@@ -303,6 +303,8 @@ function get_sets()
         sub="Sors Shield",}    
 
 
+
+
 end
 
 -------------------------------------------------------------------------------------------------------------------
@@ -346,19 +348,15 @@ function midcast(spell)
     end
 end
 
--- function buff_change(name, gain, buff_details)
-    -- if name == '<buffname>'
-    -- then
-    --     if gain
-    --     then
-    --         weapon_mode = 3
-    --     else 
-    --         weapon_mode = 1
-    --     end
-    --     equip(set_combine(sets.aftercast.Idle[gear_mode],sets.aftercast.Weapon[weapon_mode]))	
-    --     switch_crossbar(weapon_mode)
-    -- end
--- end
+function buff_change(name, gain, buff_details)
+    if name == 'Sleep'
+    then
+        if gain
+        then 
+            equip({main="Prime Maul"})
+        end
+    end
+end
 
 function aftercast(spell)
     equip(set_combine(sets.aftercast.Idle[gear_mode],sets.aftercast.Weapon[weapon_mode]))	
@@ -384,7 +382,7 @@ function self_command(command)
     if command:lower() == 'gear4' then gear_mode = 3 end
     equip(sets.aftercast.Idle[gear_mode])
 
-    if command:lower() == 'switchweapon' then weapon_mode = (weapon_mode+1)%2 end
+    if command:lower() == 'switchweapon' then weapon_mode = (weapon_mode+1)%3 end
     if command:lower() == 'weapon1' then weapon_mode = 0 end
     if command:lower() == 'weapon2' then weapon_mode = 1 end
     if command:lower() == 'weapon3' then weapon_mode = 2 end
@@ -395,6 +393,13 @@ function self_command(command)
 end
 
 function switch_crossbar(mode)
+    if mode == 0 or mode == 1 then
+        send_command('input //xivcrossbar set job-default 2 6 ws "Hexa Strike" t "Hexa Strike"')
+        send_command('input //xivcrossbar set job-default 2 7 ws "Black Halo" t "Black Halo"')
+        send_command('input //xivcrossbar set job-default 2 8 ws "Starlight" t "Starlight"')
+        send_command('input //xivcrossbar set job-default 2 5 ws "Judgment" t "Judgment"')
+end
+
 --     if mode == 0 then
 --         send_command('input //xivcrossbar set job-default 2 6 ws "Cataclysm" t "Cataclysm"')
 --         send_command('input //xivcrossbar set job-default 2 7 ws "Earth Crusher" t "Earth Crusher"')
